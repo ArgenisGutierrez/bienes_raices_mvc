@@ -1,0 +1,5 @@
+##get al home
+GET http://localhost:3000/
+
+##Post
+POST http://localhost:3000/

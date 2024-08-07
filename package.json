@@ -1,0 +1,39 @@
+{
+  "name": "bienes_raices_mvc",
+  "version": "1.0.0",
+  "description": "Pagina de bienes raices para aprender nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "css": "postcss public/css/tailwind.css -o public/css/app.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ArgenisGutierrez/bienes_raices_mvc.git"
+  },
+  "keywords": [
+    "MVC",
+    "Pug",
+    "Tailwindcss",
+    "MySQL",
+    "Sequelize"
+  ],
+  "author": "Argenis Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArgenisGutierrez/bienes_raices_mvc/issues"
+  },
+  "homepage": "https://github.com/ArgenisGutierrez/bienes_raices_mvc#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "nodemon": "^3.1.4",
+    "postcss": "^8.4.41",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.8"
+  }
+}
